@@ -59,12 +59,15 @@
 /* #region MAIN */
 main{
     background: black;
-    /* padding: 5% 8%; */
+    position:relative;
 }
 
 .top_btns{
     justify-content: flex-end;
     padding: 1rem;
+    position:absolute;
+    top: 5px;
+    right: 5px;
 }
 .top_btns > span{
     margin-left: 10px;
@@ -79,15 +82,16 @@ main{
 
 /* videocallers */
 .videocalls.d_flex{
-    width: 80%;
+    width: 90%;
     margin: auto;
     flex-wrap: wrap;
     justify-content: center;
+    padding: 5% 0;
 }
 .caller{
     position:relative;
-    width: 450px;
-    height: 250px;
+    width: 330px;
+    height: 220px;
     margin: 1rem 0.5rem;
 }
 .caller > img{
@@ -100,5 +104,29 @@ main{
     color: white;
     background: rgba(0, 0, 0, 0.664);
     padding:5px 10px;
+}
+
+.switch_pages{
+    font-size: 15px;
+}
+.back,.next{
+    position:absolute;
+    top: 50%;
+    color:white;
+    text-align: center;
+    transform: translateY(-50%);
+}
+
+.back{
+    left: 25px;
+}
+.next{
+    right: 25px;
+}
+.back > i{
+    color:gray;
+}
+.next > i{
+    color: #39BBFC;
 }
 /* #endregion MAIN */
