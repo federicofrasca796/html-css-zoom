@@ -34,6 +34,7 @@
     border-radius: 50%;
     border: 1px solid rgba(20, 20, 20, 0.3);
     display: inline-block;
+    margin: 5px;
 }
 .status_btn.red{
     background: #FC615D;
@@ -51,6 +52,27 @@
     background: gray;
     border: 5px solid white;
     vertical-align: text-bottom;
-
 }
 /* #endregion HEADER */
+
+/* #region MAIN */
+main{
+    background: black;
+    /* padding: 5% 8%; */
+}
+
+.top_btns{
+    justify-content: flex-end;
+    padding: 1rem;
+}
+.top_btns > span{
+    margin-left: 10px;
+    padding: .5rem;
+    border-radius: 5px;
+    color:white;
+    background: linear-gradient(0deg, rgba(30,30,30,1) 31%, rgba(62,62,62,1) 100%);
+}
+.speaker_view > img{
+    vertical-align: middle;
+}
+/* #endregion MAIN */
