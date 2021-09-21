@@ -135,20 +135,45 @@ main{
 footer{
     color: white;
     background: linear-gradient(0deg, rgb(37, 37, 37) 5%, rgb(58, 58, 58) 100%);
-    padding:.5rem 1rem;
 }
-.left_btns > .d_flex{
+footer.d_flex{
+    justify-content: space-between;
+}
+
+.left_btns,.center_btns{
+    padding:.5rem 0;
+}
+
+.left_btns .d_flex , 
+.center_btns .d_flex , 
+.right_btns{
     text-align: center;
     align-items: center;
 }
-.left_btns > div i:first-of-type{
+.left_btns > div i:first-of-type,
+.center_btns div i:first-of-type,
+.right_btns > div i:first-of-type{
     margin-bottom: 5px;
 }
 
-.left_btns .fa-chevron-up{
-    margin-left: 40px;
+.left_btns > .d_flex , 
+.center_btns > .d_flex > div{
+    margin: 0 1rem;
+}
+
+footer .fa-chevron-up{
+    margin-left: 20px;
     transform: translateY(-20%);
 }
 
+.right_btns{
+    color: #FB5751;
+    background: #4A4B4D;
+    padding: 0 1rem;
+}
+
+.fa-share-square{
+    color: #51C623;
+}
 
 /* #endregion FOOTER */
