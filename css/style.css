@@ -1,0 +1,25 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* #region UTILITY */
+.d_flex{
+    display: flex;
+}
+
+/* #endregion UTILITY */
+
+/* #region HEADER */
+
+#window{
+    padding: .5rem;
+    background-color: aqua;
+}
+.title{
+    display: inline-block;
+    justify-content: center;
+}
+
+/* #endregion HEADER */
