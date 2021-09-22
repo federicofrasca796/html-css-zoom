@@ -129,6 +129,9 @@ main{
 .next > i{
     color: #39BBFC;
 }
+.speaker{
+    border: greenyellow inset 5px;
+}
 /* #endregion MAIN */
 
 /* #region FOOTER */
